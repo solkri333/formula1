@@ -1,0 +1,356 @@
+:root{
+  background: hsl(240, 20%, 12%);
+  --clr-neutral: hsl(200, 100%, 100%);
+}
+
+
+body{
+  color:azure;
+}
+
+
+.head{
+  margin-top: 1.2%;
+}
+
+
+.title{
+  color: rgb(213, 35, 38);
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  font-size: xx-large;
+  /* display: contents;
+  position: fixed; */
+  justify-content: center;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+.seasons{
+  color: #F7ACCF;
+  display: flex;
+  font-size: large;
+  padding-top: 2.5%;
+  padding-bottom: 0.5%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.year{
+  transition: 400ms;
+  /* text-decoration-line: underline; */
+  /* text-decoration-color: rgb(24, 51, 132); */
+}
+
+
+.drivers{
+  padding-top: 9%;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 125px;
+  align-items: center;
+  /* border-image-outset: 5px; */
+}
+
+
+.players{
+  display: block;
+  /* border: 5px solid red; */
+  padding: 10px;
+  height: 210px;
+  width: 650px;
+  align-items: center;
+  /* background-color: blue; */
+  /* background-image: url(backgroundimg.jpg); */
+  background: linear-gradient(50deg, rgba(8, 14, 82, 0.805) 55%, #9dfff8a9 100%);
+  background-size: 100% 100%;
+  background-position: bottom;
+  /* border-radius: 1%; */
+  border-radius: 15px; /* Adjust as needed */
+  box-shadow: 0 2px 10px #ef1010e6; /* Soft shadow */
+  transition: 400ms;
+  overflow: hidden;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+.details{
+  color: #B8DBD9;
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+  text-decoration: overline;
+  text-decoration-color: #4D6CFA;
+  text-decoration-style: dashed;
+  font-family: "Changa", sans-serif;
+  /* padding-bottom: 125%; */
+  bottom: 90%;
+  left: 76%;
+  /* padding-left: 30%; */
+  display: grid;  
+  position: relative;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  justify-self: right;
+  gap: 15px;
+  /* right: 15%; */
+  transition: 400ms;
+  transition-delay: 250ms;
+}
+
+/*
+.playerimg{
+  display: flex;
+  justify-self: left;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: url(pikachu.png);
+  position: absolute;
+  margin-left: 3.2%;
+  margin-top: 4%;
+  background-size: cover;
+  height: 180px;
+  width: 160px;
+  overflow: visible;
+}
+
+.playerimg{
+  display: flex;
+  justify-self: left;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: url(pikachu.png);
+  position: relative;
+  background-size: cover;
+  height: 180px;
+  width: 160px;
+  overflow: visible;
+}
+*/
+
+
+.playerimg{
+  display: grid;
+  position: relative;
+  /* margin-left: 5%; */
+  left: 5%;
+  /* margin-top: 5%; */
+  top: 35%;
+  height: 148px;
+  width: 120px;
+  background-image: url("https://res.cloudinary.com/dtgiyns6u/image/upload/v1734375487/pikachu_mlmfmv.png");
+  background-position: center;
+  background-size: cover;
+  transition: 400ms;
+}
+
+
+.country{
+  display: grid;
+  position: relative;
+  /* margin-left: 15%;
+  margin-top: 0%; */
+  bottom: 26%;
+  height: 30px;
+  width: 60px;
+  /* background-image: url(netherlands-flag.avif); */
+  background-position: center;
+  background-size: contain;
+  left:30.8%;
+  transition: 200ms;
+  transition-delay: 260ms;
+}
+
+
+.name{
+  display: grid;
+  position: relative;
+  flex-direction: column;
+  /* padding-left: 30%;
+  padding-top: 16%; */
+  bottom: 30%;
+  /* font-size: xx-large; */
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  left: 30%;
+  transition: 400ms;
+  transition-delay: 40ms;
+}
+
+
+.first{
+  font-size: x-large;
+}
+
+
+.last{
+  font-size: xxx-large;
+  font-style: normal;
+  color: brown;
+}
+
+
+.info{
+  display: contents;
+  position: relative;
+}
+
+
+/* .grandprix{
+  position: fixed;
+  top: 55%;
+  left: 0%;
+  transform: translateY(-50%);
+  list-style-type: none;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: #F7ACCF;
+  border-style: dotted;
+  height: 60%;
+  width: 15%;
+  overflow: auto;
+} */
+
+.grandprix::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* .grandprix::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  margin-left: -10px;
+  backdrop-filter: blur(20px);
+} */
+
+
+.grandprix {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%) translateX(-85%);
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 60%;
+  width: 15%;
+  overflow: auto;
+  background: #1e1e2f; /* Darker background for a modern feel */
+  box-shadow: 2px 2px 15px rgba(21, 58, 208, 0.492); /* Stronger shadow for depth */
+  padding: 15px;
+  transition: box-shadow 500ms;
+  /* box-sizing: border-box; */
+  /* transition: all 1s ease; */
+  /* transition: 1s; */
+  /* background: linear-gradient(50deg, rgba(112, 22, 209, 0.76) 65%, hsla(255, 73%, 44%, 0.842) 90%); */
+  /* background-color: rgb(159, 8, 61); */
+  /* background-color:#78d3cda9; */
+  /* transition: 400ms; */
+  animation: translateLeft 2500ms ease-in-out;
+  border: 0px solid gold;
+  transition: 400ms, border 0s;
+  overscroll-behavior-block: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  
+}
+
+
+@keyframes translateLeft {
+  40%{
+    transform: translateX(0%) translateY(-50%);
+  }
+  0%, 100%{
+    transform: translateX(-85%) translateY(-50%);
+  }
+}
+
+
+.grandprix div{
+  font-family: 'Teko', sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 900;
+  font-size: larger;
+  font-style: italic;
+  color: burlywood;
+  border-width: 0.1px 0 0.1px;
+  border-style: solid;
+  /* border-color: rgba(163, 144, 88, 0.262); */
+  border-color: rgba(216, 112, 147, 0.504);
+  /* background-color: #4D6CFA; */
+  /* backdrop-filter: blur(20px); */
+  transition-duration: 280ms;
+  /* border-radius: 10px; */
+  margin: 20px 0;
+  padding: 4px 0 2px 15px;
+  cursor: pointer;
+}
+
+
+.spinner {
+  border: 4px solid #77c40a; 
+  border-top: 2px solid #052944;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); transform: rotate3d(0deg);}
+  50% {transform: rotate(180deg); transform: rotate3d(120deg);}
+  100% { transform: rotate(360deg);}
+}
+
+
+.team{
+z-index: 10;
+visibility: hidden;
+/* display: grid; */
+  position: relative;
+  flex-direction: column;
+  /* padding-left: 30%;
+  padding-top: 16%; */
+  bottom: 140%;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: darkgoldenrod;
+  background-image: url("https://res.cloudinary.com/dtgiyns6u/image/upload/v1734375487/pikachu_mlmfmv.png");
+  height:150px;
+  width: 800px;
+  /* left: 10%; */
+  right: 72%;
+  background-repeat: no-repeat;
+  transition: 400ms;
+  /* transition: 400ms;
+  transition-delay: 40ms; */
+
+}

@@ -1,0 +1,71 @@
+.players:hover{
+    cursor:default;
+    /* transition: 400ms; */
+    transform: scale(1.015);
+    box-shadow: 0 4px 40px 5px #da0f0fe6;
+    background: linear-gradient(50deg, rgba(10, 18, 104, 0.805) 55%, #78d3cda9 100%);
+    background-size: 100% 240%;
+}
+
+.players:hover .name, .players:hover .details{
+    opacity: 0.0;
+    transition: opacity 400ms, transform 500ms;
+    transform: translateY(130px);
+}
+
+.players:hover .name{
+    transition-delay: 200ms;
+}
+
+.players:hover .playerimg{
+    opacity: 0.0;
+    transition: opacity 400ms, transform 500ms;
+    transform: translateY(130px);
+    transition-delay: 500ms;
+}
+
+.players:hover .country{
+    opacity: 0.0;
+    transition: opacity 150ms, transform 400ms;
+    transform: translateY(50px);
+}
+
+.players:hover .team{
+    /* opacity: 1; */
+    visibility: visible;
+    transition: 800ms;
+    transform: translateX(545px);
+    transition-delay: 800ms;
+}
+
+.year:hover{
+    cursor: pointer;
+    color: #e8609d;
+}
+
+.head:hover{
+    cursor: default;
+}
+
+
+.grandprix:hover{
+    box-shadow: 2px 2px 25px rgba(22, 69, 209, 0.647);
+    transform: translateY(-50%) translateX(0%);
+    transition: 500ms;
+    border-width:2px 2px 1px 0px;
+    border-style: solid; 
+    border-color: rgb(21, 58, 208, 0.492);
+}
+
+
+/* Hover effects */
+.grandprix div:hover {
+    background-color:rgb(203, 157, 96) ;  /* Modern gradient on hover */
+    color: darkgreen; /* Bright text color on hover for contrast */
+}
+
+/* Active state for the selected item */
+.grandprix div.active {
+    background: rgba(255, 255, 255, 0.2); /* Subtle highlight for the active item */
+    color: #ffffff; /* White text for active item */
+}
