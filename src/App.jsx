@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://f1app-clex.onrender.com/year', {
+        const response = await fetch('https://f1-721508493198.us-central1.run.app/year', {
           method: 'GET',
         })
         if (!response.ok) {
